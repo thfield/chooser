@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Apple Store</title>
+        <link rel="stylesheet" type="text/css" href="calc4-style.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        
+        <!-- begin Jquery links -->
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" type="text/css" media="all" /> 
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js" type="text/javascript"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+        <!-- end Jquery links -->
+        
+	</head>
+	<body>
+        <h1>Things from the Apple Store</h1>
+        <div class="superwrapper">
+        <div class="wrapper">
+            
+        
+            
+             <div class="item active">
+                <div class="newItem">+</div>
+                <div class="spacer"></div>
+                <div class="subtotal">0</div>
+            </div>
+            
+            <div class="item">
+                <div class="spacer"></div>
+                <div class="taxEdit">edit</div>
+                <input class="taxEditing" type="number" name="editTax" value="10" />
+                <div class="taxView">tax <span class="taxrate">10</span>% &nbsp;</div>
+                <div class="tax">0</div>
+            </div>
+            
+            <div class="item active">
+                <div class="spacer"></div>
+                <div class="total">0</div>   
+            </div>
+            
+        </div>
+        </div>
+        <script type="text/javascript" src="calc4-script.js"></script>
+        <script type="text/javascript" src="apple-data.js"></script>
+        <script type="text/javascript" src="calc4-make.js"></script>
+	</body>
+</html>
